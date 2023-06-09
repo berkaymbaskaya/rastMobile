@@ -1,0 +1,189 @@
+﻿<div style="width:100% ;">
+    <div class="tableContainer">
+        <table style="width: 100% !important;"id="myTable">
+
+            <thead>
+                <tr>
+                    <th>Sosyal Medya Linki</th>
+                    <th>Sosyal Medya Adı</th>
+                    <th>Açıklama</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div id="myModal" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-m">
+
+        <div class="modal-content">
+            <div id="toast_addFeatures_fail" class="toast align-items-center text-white bg-danger border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                       Formu Eksiksiz Doldurduğunuza emin olun
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="modal-header" style="flex-direction: row-reverse;">
+                <button ng-click="closeModal()" class="closeButton" type="button" data-dismiss="modal" aria-label="Close" data-target="#myModal">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <label for="basic-url">Sosyal Medya Linki</label>
+            <div class="input-group mb-3">
+                <input ng-model="newMedia.link" type="text" class="form-control" id="basic-url">
+            </div>
+            <label for="basic-url">Sosyal Medya Adı</label>
+            <div class="input-group mb-3">
+                <input ng-model="newMedia.ad" type="text" class="form-control" id="basic-url">
+            </div>
+            <label for="basic-url">Açıklama</label>
+            <div class="input-group mb-3">
+                <input ng-model="newMedia.aciklama" type="text" class="form-control" id="basic-url">
+            </div>
+            <div class="modal-footer">
+                <button ng-click="closeModal()" type="button" id="cancelButton" class="btn btn-primary">Vazgeç</button>
+                <button ng-click="saveData()" type="button" id="submitButton" class="btn btn-secondary" data-dismiss="modal">Kaydet</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    table {
+        border: 1px solid #EAEAEA;
+    }
+
+        table.dataTable tbody tr {
+            background-color: #eff2ff;
+        }
+
+    .odd {
+        background-color: white !important;
+    }
+
+    .tableContainer {
+        margin-top: 20px;
+        background: #eff2ff;
+        width: 100%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        border-radius: 10px;
+        padding: 5px;
+        border: none;
+        background-color: white;
+        margin-left: 10px;
+        color: #2e2e2e;
+        padding-left: 15px;
+    }
+
+    tr {
+        background: white;
+    }
+
+    th {
+        padding: 18px !important;
+    }
+
+    #myTable {
+        margin-top: 50px;
+    }
+
+    #myTable_wrapper {
+        padding: 10px;
+    }
+
+    table.dataTable thead > tr > th.sorting:before {
+        opacity: .8;
+        color: #744bfc;
+    }
+
+    .paginate_button current {
+        border: none;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        border: none;
+        background: white;
+        border-radius: 10px;
+    }
+
+    #addButton {
+        background: #744BFC;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .dt-button {
+        border: none !important;
+        border-radius: 25px !important;
+        background: #744bfc !important;
+        color: white !important;
+    }
+
+    .modal-content {
+        padding: 30px;
+    }
+
+    label {
+        font-family: 'Poppins'
+    }
+
+    input {
+        border-radius: 20px !important;
+        margin-bottom: 10px;
+    }
+
+    .closeButton {
+        border: none;
+        background: transparent;
+    }
+
+    .modal-header {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+        border-bottom: none;
+        border-top-left-radius: calc(0.3rem - 1px);
+        border-top-right-radius: calc(0.3rem - 1px);
+    }
+
+    #cancelButton {
+        background: #eff2ff;
+        border: none;
+        color: #744bfc;
+        border-radius: 15px;
+        font-family: 'Poppins';
+    }
+
+    #submitButton {
+        background: #744bfc;
+        border: none;
+        border-radius: 15px;
+    }
+    #submitButton:hover, #cancelButton:hover{
+        opacity:.7;
+    }
+    .dataTables_filter {
+        float: left !important;
+    }
+
+    div.dt-buttons {
+        position: relative;
+        float: right !important;
+    }
+
+    .dt-button:hover {
+        opacity: .8
+    }
+</style>

@@ -26,11 +26,7 @@
     navbarTopController.$inject = ['$scope', '$rootScope', '$location', '$sce', '$timeout', '$state', '$window', 'filterFilter', 'dataService'];
 
     function navbarTopController($scope, $rootScope, $location, $sce, $timeout, $state, esriLoader, $window, filterFilter, dataService, authService) {
-        console.log(325)
-        dataService.getSocialMedia().then((res) => {
-            var data = res.data;
-            console.log(data)
-        })
+
     }
 
 

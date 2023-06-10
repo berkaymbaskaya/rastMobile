@@ -1,8 +1,8 @@
 # rastMobile
 ### Bilgi
-Sosyal Medya hesapları hakkında bilgileri tablo şeklinde kulalnıcıya soran, kullanıcıdan yeni veri alıp tabloya ekleyen responsive bir angularJs projesi.
+Sosyal Medya hesapları hakkında bilgileri tablo şeklinde kullanıcıya sunan, kullanıcıdan yeni veri alıp tabloya ekleyen responsive bir AngularJs projesi.
 ### Kurulum
-Projeyi direkt olarak localinize indirip Visual Code editöründen index.html içerisinde right click ile Open With LiveServer diyerek localhost' üzerinde çalıştırabilirsiniz.
+Proje dosylarını direkt olarak localinize indirip Visual Code editöründen index.html içerisinde right click ile Open With LiveServer diyerek localhost' üzerinde çalıştırabilirsiniz.
 ### İşlem Adımları
 İşlem adımları ve algoritma şeması gibi birçok detayı kök dizinde bulanan aciklama.docx dosyasında bulabilirsiniz.
 ### Görünüm

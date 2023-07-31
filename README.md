@@ -6,7 +6,5 @@ Proje dosylarını direkt olarak localinize indirip Visual Code editöründen in
 ### İşlem Adımları
 İşlem adımları ve algoritma şeması gibi birçok detayı kök dizinde bulanan aciklama.docx dosyasında bulabilirsiniz.
 ### Görünüm
-![WhatsApp Image 2023-07-31 at 17 43 53](https://github.com/berkaymbaskaya/rastMobile/assets/110475301/d798bf00-bcbb-405e-a9bc-cb8754267bc4)
-![WhatsApp Image 2023-07-31 at 17 43 54](https://github.com/berkaymbaskaya/rastMobile/assets/110475301/e8ae0c0f-4eb0-41bb-ac4b-df6015af968d)
-![WhatsApp Image 2023-07-31 at 17 43 55](https://github.com/berkaymbaskaya/rastMobile/assets/110475301/35044845-152a-4101-b328-b81ca78b8fdc)
-![WhatsApp Image 2023-07-31 at 17 43 56](https://github.com/berkaymbaskaya/rastMobile/assets/110475301/564b2b76-0291-4dc7-b2ab-9a882453e3dd)
+![responsive1](https://github.com/berkaymbaskaya/rastMobile/assets/110475301/2e192cd6-71c0-46bc-829f-953a43d2eedc)
+![responsive2](https://github.com/berkaymbaskaya/rastMobile/assets/110475301/eac018c9-9b72-4813-9c9d-052cd07c4653)
